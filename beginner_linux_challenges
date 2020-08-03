@@ -1,0 +1,58 @@
+Task 1: Basic Task
+
+1. ~$ ls                                      ....Lists all files that exist within the current directory
+2. ~$ pwd                                     ....Displays the current working directory the user is currently in
+3. ~$ mkdir workspace                         ....Creates a folder named workspace
+4. ~$ cd ~/workspace                          ....Opens up into the workspace folfder
+5. ~/workspace$ ls                            ....Displays all files and folders that exist in the directory 'workspace'
+6. ~/workspace$ touch README.md               ....This command creates a new file called README.md 
+7. ~/wprkspace$ cp README.md                  ....Makes a copy of the README.md file
+8. ~/workspace$ mv README.md CHANGELOG.md     ....Renames the copy of README.md to CHANGELOG.md
+
+
+
+
+Task 2: Absolute and Relative Paths
+
+1. ~$ mkdir tmp                     ....Creates a folder tmp
+2. ~$ touch exercise.md             ....Creates a file named exercise
+3. ~$ mv exercise.md ~/tmp          ....Moves the file exercise to the tmp dirctory
+4. ~$ cd ~/tmp                      ....Go into tmp directory
+5. ~/tmp$ rm exercise.md            ....Deletes the file exercise.md
+
+
+
+
+
+Task 3: Cat Commands
+
+1. ~$ touch umuzi.md             ....creates the file umuzi.md
+   ~$ touch recruits.md          ....creates the file recruits.md
+   ~$ touch cohort.md            ....creates the file cohort.md
+2. ~$ cat > umuzi.md             ....Fills the files with the reapective text
+   Godfrey loves woodwork
+   ~$ cat recruits.md
+   Godfrey is a fan of soccer
+   ~$ cat cohort.md
+   Godfrey loves woodwork and soccer
+
+3. ~$ cat umuzi.md recruits.md cohort.md                    ....Combines all contents of the 3 files and displays the results
+4. ~$ cat umuzi.md recruits.md cohort.md -> summary.md      ....Print/Stores the previous output into summary.md and appends the words "The End."
+   The End.
+
+
+
+
+
+Task 7: Text Commands
+
+1. ~$ nano my_bio.md                         ....creates a file my_bio.md and awaits input/content
+2. #Press Ctrl+o to exit nano
+3. ~$ mkdir my_files                         ....creates a new folder called my_files
+   ~$ mv my_bio.md ~/my_files                ....moves the file my_bio.md into the folder my_files 
+
+Task 8: Update and Upgrade
+
+1. sudo apt update                         ....after pressing enter it goes on to ask for recruitee password
+2. sudo apt upgrade                        ....after dowloading all necessary packages, this command upgrades the system into the latest available packages
+3. sudo apt install tree                   ....this command installs the tree package
